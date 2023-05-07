@@ -1,0 +1,29 @@
+::selection {
+  background: gold;
+  color: #518;
+}
+
+:root {
+  color: peachpuff;
+  background: #518;
+}
+
+:any-link {
+  color: gold;
+}
+
+@media (prefers-color-scheme: light) {
+  ::selection {
+    background: #518;
+    color: gold;
+  }
+
+  :root {
+    color: #518;
+    background: gold;
+  }
+
+  :any-link {
+    color: #318;
+  }
+}
